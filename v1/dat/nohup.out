@@ -1,0 +1,86 @@
+[ 000000.03 ]   0: 08-29 17:00  CatalogSource   INFO     Extra arguments to FileType: ('/global/homes/m/mjwilson/SIMBA/simba_pos_3.00307.fits',) {}
+[ 000001.78 ]   0: 08-29 17:00  CatalogMesh     INFO     Chunk 0 ~ 4194304 / 18165 
+[ 000001.86 ]   0: 08-29 17:00  CatalogMesh     INFO     painted 18165 out of 18165 objects to mesh
+[ 000002.27 ]   0: 08-29 17:00  CatalogMesh     INFO     painted 18165 out of 18165 objects to mesh
+[ 000002.27 ]   0: 08-29 17:00  CatalogMesh     INFO     mean particles per cell is 1.69175e-05
+[ 000002.27 ]   0: 08-29 17:00  CatalogMesh     INFO     sum is 18165 
+[ 000003.78 ]   0: 08-29 17:00  CatalogMesh     INFO     normalized the convention to 1 + delta
+[ 000016.79 ]   0: 08-29 17:01  CatalogMesh     INFO     field: (FITSCatalog(size=18165, FileStack(FITSFile(path=/global/homes/m/mjwilson/SIMBA/simba_pos_3.00307.fits, dataset=None, ncolumns=3, shape=(18165,)>, ... 1 files)) as CatalogMesh) painting done
+[ 000149.37 ]   0: 08-29 17:03  CatalogSource   INFO     Extra arguments to FileType: ('/global/homes/m/mjwilson/SIMBA/simba_dmpos_3.00307.fits',) {}
+[ 000151.08 ]   0: 08-29 17:03  CatalogMesh     INFO     Chunk 0 ~ 4194304 / 33554432 
+[ 000158.20 ]   0: 08-29 17:03  CatalogMesh     INFO     painted 4194304 out of 33554432 objects to mesh
+[ 000158.20 ]   0: 08-29 17:03  CatalogMesh     INFO     Chunk 4194304 ~ 8388608 / 33554432 
+[ 000164.90 ]   0: 08-29 17:03  CatalogMesh     INFO     painted 8388608 out of 33554432 objects to mesh
+[ 000164.90 ]   0: 08-29 17:03  CatalogMesh     INFO     Chunk 8388608 ~ 12582912 / 33554432 
+[ 000171.78 ]   0: 08-29 17:03  CatalogMesh     INFO     painted 12582912 out of 33554432 objects to mesh
+[ 000171.78 ]   0: 08-29 17:03  CatalogMesh     INFO     Chunk 12582912 ~ 16777216 / 33554432 
+[ 000178.96 ]   0: 08-29 17:03  CatalogMesh     INFO     painted 16777216 out of 33554432 objects to mesh
+[ 000178.96 ]   0: 08-29 17:03  CatalogMesh     INFO     Chunk 16777216 ~ 20971520 / 33554432 
+[ 000186.19 ]   0: 08-29 17:04  CatalogMesh     INFO     painted 20971520 out of 33554432 objects to mesh
+[ 000186.19 ]   0: 08-29 17:04  CatalogMesh     INFO     Chunk 20971520 ~ 25165824 / 33554432 
+[ 000193.15 ]   0: 08-29 17:04  CatalogMesh     INFO     painted 25165824 out of 33554432 objects to mesh
+[ 000193.16 ]   0: 08-29 17:04  CatalogMesh     INFO     Chunk 25165824 ~ 29360128 / 33554432 
+[ 000200.17 ]   0: 08-29 17:04  CatalogMesh     INFO     painted 29360128 out of 33554432 objects to mesh
+[ 000200.17 ]   0: 08-29 17:04  CatalogMesh     INFO     Chunk 29360128 ~ 33554432 / 33554432 
+[ 000206.79 ]   0: 08-29 17:04  CatalogMesh     INFO     painted 33554432 out of 33554432 objects to mesh
+[ 000207.20 ]   0: 08-29 17:04  CatalogMesh     INFO     painted 33554432 out of 33554432 objects to mesh
+[ 000207.20 ]   0: 08-29 17:04  CatalogMesh     INFO     mean particles per cell is 0.03125
+[ 000207.20 ]   0: 08-29 17:04  CatalogMesh     INFO     sum is 3.35544e+07 
+[ 000208.67 ]   0: 08-29 17:04  CatalogMesh     INFO     normalized the convention to 1 + delta
+[ 000221.37 ]   0: 08-29 17:04  CatalogMesh     INFO     field: (FITSCatalog(size=33554432, FileStack(FITSFile(path=/global/homes/m/mjwilson/SIMBA/simba_dmpos_3.00307.fits, dataset=None, ncolumns=3, shape=(33554432,)>, ... 1 files)) as CatalogMesh) painting done
+149.32965803146362
+Number of galaxies: 18165
+Shotnoise: 17.309771538673274
+332.0834403038025
+Number of galaxies: 33554432
+Shotnoise: 0.009370803833007812
+Traceback (most recent call last):
+  File "nkit.py", line 73, in <module>
+    pl.savefig('pk.pdf')
+  File "/dev/shm/local/lib/python3.7/site-packages/matplotlib/pyplot.py", line 722, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/dev/shm/local/lib/python3.7/site-packages/matplotlib/figure.py", line 2180, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/dev/shm/local/lib/python3.7/site-packages/matplotlib/backend_bases.py", line 2082, in print_figure
+    **kwargs)
+  File "/dev/shm/local/lib/python3.7/site-packages/matplotlib/backends/backend_pdf.py", line 2503, in print_pdf
+    self.figure.draw(renderer)
+  File "/dev/shm/local/lib/python3.7/site-packages/matplotlib/artist.py", line 38, in draw_wrapper
+    return draw(artist, renderer, *args, **kwargs)
+  File "/dev/shm/local/lib/python3.7/site-packages/matplotlib/figure.py", line 1709, in draw
+    renderer, self, artists, self.suppressComposite)
+  File "/dev/shm/local/lib/python3.7/site-packages/matplotlib/image.py", line 135, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/dev/shm/local/lib/python3.7/site-packages/matplotlib/artist.py", line 38, in draw_wrapper
+    return draw(artist, renderer, *args, **kwargs)
+  File "/dev/shm/local/lib/python3.7/site-packages/matplotlib/axes/_base.py", line 2647, in draw
+    mimage._draw_list_compositing_images(renderer, self, artists)
+  File "/dev/shm/local/lib/python3.7/site-packages/matplotlib/image.py", line 135, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/dev/shm/local/lib/python3.7/site-packages/matplotlib/artist.py", line 38, in draw_wrapper
+    return draw(artist, renderer, *args, **kwargs)
+  File "/dev/shm/local/lib/python3.7/site-packages/matplotlib/axis.py", line 1205, in draw
+    renderer)
+  File "/dev/shm/local/lib/python3.7/site-packages/matplotlib/axis.py", line 1150, in _get_tick_bboxes
+    for tick in ticks if tick.label1.get_visible()],
+  File "/dev/shm/local/lib/python3.7/site-packages/matplotlib/axis.py", line 1150, in <listcomp>
+    for tick in ticks if tick.label1.get_visible()],
+  File "/dev/shm/local/lib/python3.7/site-packages/matplotlib/text.py", line 890, in get_window_extent
+    bbox, info, descent = self._get_layout(self._renderer)
+  File "/dev/shm/local/lib/python3.7/site-packages/matplotlib/text.py", line 291, in _get_layout
+    ismath="TeX" if self.get_usetex() else False)
+  File "/dev/shm/local/lib/python3.7/site-packages/matplotlib/backends/_backend_pdf_ps.py", line 47, in get_text_width_height_descent
+    s, fontsize, renderer=self)
+  File "/dev/shm/local/lib/python3.7/site-packages/matplotlib/texmanager.py", line 450, in get_text_width_height_descent
+    page, = dvi
+  File "/dev/shm/local/lib/python3.7/site-packages/matplotlib/dviread.py", line 243, in __iter__
+    while self._read():
+  File "/dev/shm/local/lib/python3.7/site-packages/matplotlib/dviread.py", line 301, in _read
+    self._dtable[byte](self, byte)
+  File "/dev/shm/local/lib/python3.7/site-packages/matplotlib/dviread.py", line 161, in wrapper
+    return method(self, *[f(self, byte-min) for f in get_args])
+  File "/dev/shm/local/lib/python3.7/site-packages/matplotlib/dviread.py", line 441, in _fnt_def
+    self._fnt_def_real(k, c, s, d, a, l)
+  File "/dev/shm/local/lib/python3.7/site-packages/matplotlib/dviread.py", line 448, in _fnt_def_real
+    raise FileNotFoundError("missing font metrics file: %s" % fontname)
+FileNotFoundError: missing font metrics file: cmr10
